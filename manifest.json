@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "APEX Inspector",
+  "version": "1.1.1",
+  "description": "Live session-state and region inspector for Oracle APEX developers. Click the icon on any running APEX page.",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle APEX Inspector"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
